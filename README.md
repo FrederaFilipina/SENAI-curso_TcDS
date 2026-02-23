@@ -1,33 +1,41 @@
-# SENAI-curso_TcDS
-Repositório estruturado em quatro diretórios, cada um representando respectivamente um semestre acadêmico. Cada diretório está organizado por disciplinas e subdividido em matérias e conteudo, que por sua vez vão estar os exercícios, atividades e projetos desenvolvidos.
+# 🚨  🚨 🚧  `Repositório em construção`  🚧 🚨  🚨
+
+# 🙋‍♂️ Aluno: **`Frederico`**
+
+## 🎯 Repositório com os exercícios, atividades e projetos desenvolvidos ao longo do curso Técnico em Desenvolvimento de Sistemas pelo SENAI Florianópolis (CTAI).
+
+### 📅 Atualmente no 3º Semestre, o curso teve início em março de 2025 e possui duração prevista de dois anos letivos. 
+
+### 📂 O repositório está estruturado em quatro diretórios, cada um representando um semestre acadêmico. Os diretórios estão dispostos por disciplinas, que por sua vez são subdivididas em matérias e organizadas de acordo com os conteúdos estudados.
 
 
 
-1º Período:
 
-    Semestre 1:
-        Lógica de Programação
-
-
-
-    Semestre 2:
-        Programação de App
-
-
-        Banco de Dados
-
-
-
-2º Período:
-
-    Semestre 3:
-        Desenvolvimento de Sistemas
-            Back-end
-            Front-end
-
-
-        Teste de Sistemas
+    Ano 2025:
+        1º Semestre (de ___ até ___):
+            Lógica de Programação:
     
     
     
-    Semestre 4:
+    2º Semestre 2 (de ___ até ___):
+        Programação de App:
+    
+    
+        Banco de Dados:
+    
+    
+    
+    
+    Ano 2026:
+        3ºSemestre (de ___ até ___):
+            Desenvolvimento de Sistemas:
+                Back-end:
+    
+                Front-end:
+    
+    
+            Teste de Sistemas:
+    
+    
+    
+    4º Semestre (de ___ até ___):
