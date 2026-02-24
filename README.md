@@ -13,35 +13,21 @@
 #### **Ano: 2025**
 - **1º Semestre:**
     - **Lógica de Programação:**
-        - **Conteúdo**
-<br>
-<br>
-<br>
-
+        - **Conteúdo**<br><br><br>
 - **2º Semestre:**
     - **Programação de Aplicativos:**
-        - **Conteúdo**
-<br>
-<br>
+        - **Conteúdo**<br><br>
     - **Banco de Dados:**
-        - **Conteúdo**
-
-<br>
+        - **Conteúdo**<br>
 <hr>
 
 #### **Ano: 2026**
 - **3º Semestre:**
     - **Desenvolvimento de Sistemas:**
         - **FrontEnd:**<br>
-        - **BackEnd:**
-<br>
-<br>
-    - Teste de Sistemas:
-        - Conteúdo:
-<br>
-<br>
-<br>
-
+        - **BackEnd:**<br><br>
+    - **Teste de Sistemas:**
+        - **Conteúdo:**<br><br><br>
 - **4º Semestre:**
     - **Matéria:**
         - **Conteúdo**
