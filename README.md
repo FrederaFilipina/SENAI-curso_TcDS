@@ -1,7 +1,3 @@
-# 🚨  🚨 🚧  `Repositório em construção`  🚧 🚨  🚨
-<hr><hr>
-<br>
-
 # 🙋‍♂️ Aluno: **`Frederico`**
 
 ## 🎯 Repositório com os exercícios, atividades e projetos desenvolvidos ao longo do curso Técnico em Desenvolvimento de Sistemas pelo SENAI Florianópolis (CTAI).
@@ -13,31 +9,31 @@
 - **Ano: 2025**
     - **1º Semestre:**
         - **Lógica de Programação:**
-            - **JavaScript:**
+            1. **JavaScript:**
                 - If, Else, ElseIf e Switch // While e For // Array // Objetos // Local Storage
         <hr>
     - **2º Semestre:**
         1. **Programação de Aplicativos:**
-            - **React**
+            1. **React**
                 - Componetes // Estado // Input // Arrays // Router // API
                 <hr>
         2. **Banco de Dados:**
-            - **MySQL:**
+            1. **MySQL:**
                 - Diagrama de Entidade Relacionamento - DER e Banco de Dados // Constraint // LeftJoin, RightJoin e View // Count, Sum, AVG, Min, Max e Distinct // Triggers
 <hr>
 
 - **Ano: 2026**
     - **3º Semestre:**
         1. **Desenvolvimento de Sistemas:**
-            - **FrontEnd:**
+            1. **FrontEnd:**
                 - Conteúdo // 
-            - **BackEnd:**
+            2. **BackEnd:**
                 - Promise //
             <hr>
         2. **Teste de Sistemas:**
-            - Jest:
+            1. Jest:
         <hr>
     - **4º Semestre:**
         - **Matéria:**
-            - Conteúdo
+            1. Conteúdo
 <hr><hr>
