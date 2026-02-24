@@ -23,7 +23,6 @@
         - **Conteúdo**
 <br>
 <br>
-
     - **Banco de Dados:**
         - **Conteúdo**
 
@@ -35,11 +34,9 @@
     - **Desenvolvimento de Sistemas:**
         - **FrontEnd:**
 <br>
-
         - **BackEnd:**
 <br>
 <br>
-
     - Teste de Sistemas:
         - Conteúdo:
 <br>
