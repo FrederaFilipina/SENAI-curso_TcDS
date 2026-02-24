@@ -6,9 +6,9 @@
 Teve seu início em **março de 2025**, com duração prevista de dois anos.
 
 ---
+### 📊 Status do Repositório:
 
-
-![## Status do Repositório: ](https://img.shields.io/github/languages/top/frederafilipina/SENAI-curso_TcDS)
+# 🚨 🚧 EM CONSTRUÇÃO 🚧 🚨
 
 ---
 
