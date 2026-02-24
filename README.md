@@ -12,8 +12,8 @@
 
 - **Ano: 2025**
     - **1º Semestre:**
-        1. **Lógica de Programação:**
-            1. **JavaScript:**
+        - **Lógica de Programação:**
+            - **JavaScript:**
                 - If, Else, ElseIf e Switch // While e For // Array // Objetos // Local Storage
         <hr>
     - **2º Semestre:**
