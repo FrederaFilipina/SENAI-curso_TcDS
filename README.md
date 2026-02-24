@@ -1,4 +1,6 @@
 # 🚨  🚨 🚧  `Repositório em construção`  🚧 🚨  🚨
+<hr><hr>
+<br>
 
 # 🙋‍♂️ Aluno: **`Frederico`**
 
@@ -7,28 +9,35 @@
 ### 📅 Atualmente no 3º Semestre, o curso teve início em março de 2025 e possui duração prevista de dois anos letivos. 
 
 ### 📂 O repositório está estruturado em quatro diretórios, cada um representando um semestre acadêmico. Os diretórios estão dispostos por disciplinas, que por sua vez são subdivididas em matérias e organizadas de acordo com os conteúdos estudados.
-<br>
+
+- **Ano: 2025**
+    - **1º Semestre:**
+        1. **Lógica de Programação:**
+            - **JavaScript:**
+                - If, Else, ElseIf e Switch // While e For // Array // Objetos // Local Storage
+        <hr>
+    - **2º Semestre:**
+        1. **Programação de Aplicativos:**
+            - **React**
+                - Componetes // Estado // Input // Arrays // Router // API
+                <hr>
+        2. **Banco de Dados:**
+            - **MySQL:**
+                - Diagrama de Entidade Relacionamento - DER e Banco de Dados // Constraint // LeftJoin, RightJoin e View // Count, Sum, AVG, Min, Max e Distinct // Triggers
 <hr>
 
-#### **Ano: 2025**
-- **1º Semestre:**
-    - **Lógica de Programação:**
-        - **Conteúdo**<br><br><br>
-- **2º Semestre:**
-    - **Programação de Aplicativos:**
-        - **Conteúdo**<br><br>
-    - **Banco de Dados:**
-        - **Conteúdo**<br>
-<hr>
-
-#### **Ano: 2026**
-- **3º Semestre:**
-    - **Desenvolvimento de Sistemas:**
-        - **FrontEnd:**<br>
-        - **BackEnd:**<br><br>
-    - **Teste de Sistemas:**
-        - **Conteúdo:**<br><br><br>
-- **4º Semestre:**
-    - **Matéria:**
-        - **Conteúdo**
-<hr>
+- **Ano: 2026**
+    - **3º Semestre:**
+        1. **Desenvolvimento de Sistemas:**
+            - **FrontEnd:**
+                - Conteúdo // 
+            - **BackEnd:**
+                - Promise //
+            <hr>
+        2. **Teste de Sistemas:**
+            - Jest:
+        <hr>
+    - **4º Semestre:**
+        - **Matéria:**
+            - Conteúdo
+<hr><hr>
