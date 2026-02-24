@@ -32,8 +32,7 @@
 #### **Ano: 2026**
 - **3º Semestre:**
     - **Desenvolvimento de Sistemas:**
-        - **FrontEnd:**
-<br>
+        - **FrontEnd:**<br>
         - **BackEnd:**
 <br>
 <br>
