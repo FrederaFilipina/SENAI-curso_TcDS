@@ -1,8 +1,11 @@
 import styles from './Header.module.css'
-function Header() {
+
+const Header = () => {
   return (
     <header className={styles.Header}>
-        <h1> Título </h1>
+
+      <h1>Título</h1>
+
     </header>
   )
 }
