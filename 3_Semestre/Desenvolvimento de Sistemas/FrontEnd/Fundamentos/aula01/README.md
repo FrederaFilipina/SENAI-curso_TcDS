@@ -1,7 +1,7 @@
 # Aula 01
 > Iniciando a revisão sobre fundamentos de React
 
-### Componentização: É uma estratégia arquitetural que divide sistemas e interfaces em unidades menores, independentes e reutilizáveis chamada de: *`componentes`*
+### Componentização: É uma estratégia arquitetural que divide sistemas e interfaces em unidades menores, independentes e reutilizáveis chamada de: `componentes`
 
 ##
 
@@ -18,28 +18,29 @@
 
             - Utilize uma função do tipo *`Function Statement`* ou *`Function Declaration`* com o nome do arquivo, que retorne um `Fragmento: <> </>` vazio a ser exportado no final, utilizando o *`export default`*
                             
-                    function App() {
-                        return (
-                            <>
-                            </>
-                        )
-                    }
-                    export default App
+                    1.  function App() {
+                    2.      return (
+                    3.          <>
+                    4.          </>
+                    5.      )
+                    6.  }
+                    7.  export default App
 
-    - Deletar a `formatação`;
+    - Deletar a `estilização`;
 
-        1. Abrir o arquivo: *`index.css`* (arquivo que recebe a formatação da aparência da página onde os componentes serão renderizados);
+        1. Abrir o arquivo: *`index.css`* (arquivo que recebe a estilização da aparência da página onde os componentes serão renderizados);
 
         2. Selecione todo o código existente e delete;
 
-        3. Defina a formatação base padrão que vai ser aplicada a página:
+        3. Defina a estilização base padrão que vai ser aplicada a página:
 
             - Utilize o *`*`* (seletor universal no CSS, age sobre os demais elementos) para padronizar a margem, o espaçamento e a forma como o tamanho dos elementos acabam sendo calculado
-                    *{
-                        margin: 0;
-                        padding: 0;
-                        box-sizing: border-box;
-                    }
+                    
+                    1.  *{
+                    2.      margin: 0;
+                    3.      padding: 0;
+                    4.      box-sizing: border-box;
+                    5.  }
 <br><br>
 
 ### ▷ Definindo a estrutura de `Componentização`:
@@ -53,7 +54,7 @@
         
         3. Crie os arquivos:
             - `index.jsx` (contem toda as informações do componente)
-            - NomeDaPasta`.module.css` (contem toda formatação do componente)
+            - NomeDaPasta`.module.css` (contem toda estilização do componente)
 
                     📁 src
                         📂 layouts
@@ -63,108 +64,96 @@
 <br><br>
 
 ### ▷ Criando e configurando o `Componente`:
-- Criar a estrutura que vai receber o conteúdo do componente;
+- Criar a estrutura e definir o conteúdo do componente;
     
     - Abra o arquivo `index.jsx`
+
         1. Crie a estrutura:
-            - Use uma *`Arrow function com const`* 🔎(é uma forma segura de guardar uma função com a garantia de que ela não será sobrescrita)🖊;
 
-- Definir o conteúdo que vai ser exportado;
+            - Utilize uma *`Arrow function`* com *`const`*, forma segura de guardar uma função dentro de uma variavel, com a garantia de que ela não será sobrescrita);
 
-- Criar a forma como a formatação vi ser importada;
+                    01.     const Header = () => {
+                    02.         return (
+                    03.             <>
+                    04.          
+                    05.             </>
+                    06.         )
+                    07.     }
+                    08.     export default Header
+
+        2. Defina o conteúdo:
+
+            - Utilize a *tag*: *`header`* para definir o cabeçalho e `<h1>` para título;
+
+                    01.     const Header = () => {
+                    02.         return (
+                    03.             <header>
+                    04.                 <h1> Título <h1>
+                    05.             </header>
+                    06.         )
+                    07.     }
+                    08.     export default Header
 
 
+- Definir onde a estilização ira agir e incluir a conexão com o arquivo da estilização;
 
+    - Selecione a *tag* que englobe todo o componente
 
+        1. Crie  o atributo e o objeto:          
 
+            - Utilize o atributo:*`className`*, usado para aplicar classes CSS aos elementos JSX;
 
+            - Utilize dentro do atributo, o objeto: *`styles.nomeReferência`*, objeto de estilos gerado pelos CSS Modules;
 
+                    01.     const Header = () => {
+                    02.         return (
+                    03.             <header className={styles.Header}>
+                    04.
+                    05.                 <h1>Título</h1>
+                    06.
+                    07.             </header>
+                    08.         )
+                    09.     }
+                    10.     export default Header
 
-
-
----
-
-
-
-
-### ▷ Criando e configurando o *`componente`*:
-1. Abra o arquivo: *`index.jsx`*;
-
-2. Crie o esqueleto e define o conteúdo do componente:
-    - Criando o esqueleto:
-
-        - Use uma *`Arrow function com const`* 🔎(é uma forma segura de guardar uma função com a garantia de que ela não será sobrescrita)🖊;
-
-                const Header = () => {
-                    return (
-                        <>
-
-                        </>
-                    )
-                }
-                export default Header
-
-    - Configure o conteúdo que vai ter dentro componente retorne:
-        - tag *`header`* para definir o cabeçalho e *`<h1>`* para título
+        2. Crie a conexão com o arquivo: *`Header.module.css`*, onde a estilização é definida:
             
-                const Header = () => {
-                    return (
-                        <header>
+            - Importando a estilização;
 
-                            <h1> Título <h1/>
+                    01.     import styles from './Header.module.css'
+                    02.
+                    03.         return (
+                    04.             <header className={styles.Header}>
+                    05.
+                    06.                 <h1>Título</h1>
+                    07.
+                    08.             </header>
+                    09.         )
+                    10.     }
+                    11.     export default Header
 
-                        </header>
-                    )
-                }
-                export default Header
+- Definir a estilização do componente
 
-3. Configure a importação e formatação que o componente vai ter:
-    - Crie o atributo e objeto que vão indicar onde a formatação ira agir sobre o conteúdo do componente;
-        - Passe dentro do que engloba todo o conteúdo do componente o atributo: *`className`* 🔎(usado para aplicar classes CSS aos elementos JSX)🖊
+    - Abra o arquivo *`Header.module.css`*;
 
-        - Em seguida o objeto: *`styles.nomeReferência`* 🔎(objeto de estilos gerado pelos CSS Modules)🖊
+        1. Defina a clase onde vão ficar as configurações da estilização:
 
-                const Header = () => {
-                    return (
-                        <header className={styles.Header}>
+            -  Utilize o *`ponto (.)`* parar criar a classe *`Header`*, o nome deve ser igual ao usado no objeto *`styles.`* do componente que vai receber a estilização
 
-                            <h1>Título</h1>
+                    01.     .Header{
+                    02.    
+                    03.     }
+            
+        2. Crie a estilização:
 
-                        </header>
-                    )
-                }
-                export default Header
-    
-    - Crie a conexão com o arquivo: *`Header.module.css`* para fazer a importação da formatação;
-        - Importando a formatação;
-        
-                import styles from './Header.module.css'
-                
-                const Header = () => {
-                    return (
-                        <header className={styles.Header}>
+            - Utilize: *`background-color`* para definir a cor de fundo, *`color`* para a cor da fonte; *`padding`* para espaçamento e *`text-align`* para definir o alinhamento do texto;
 
-                            <h1>Título</h1>
+                    01.     .Header{
+                    02.         background-color: #ff00ff;
+                    03.         color: #ffffff;
+                    04.         padding: 20px;
+                    05.         text-align: center;
+                    06.     }
 
-                        </header>
-                    )
-                }
-                export default Header
-
-    - Crie a classe e as instruções da formatação :
-        - Utilize o *`ponto (.)`* parar criar a classe *`Header`* 🔎(o nome deve ser igual ao usado no objeto *`styles.`* do componente)🖊 que vai receber a formatação do componente
-
-                .Header{
-
-                }
-
-        - Defina a formatação
-
-                .Header{
-                    background-color: #ff00ff;
-                    color: #ffffff;
-                    padding: 20px;
-                    text-align: center;
-                }
 
 ### ▷ Usando o componente
