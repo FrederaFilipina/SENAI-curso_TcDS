@@ -1,7 +1,8 @@
 # Aula 01
 > Iniciando a revisão sobre fundamentos de React
 
-### Componentização: É uma estratégia arquitetural que divide sistemas e interfaces em unidades menores, independentes e reutilizáveis chamada de `componentes`.
+### Componente: trata-se da junção do conteúdo, lógica de funcionamento e estilização em um único bloco. Podendo ser usado forma isolada, em conjunto com outros blocos e até mesmo de maneira repetida em lugares diferentes com a finalidade de criar a interface de uma aplicação.
+
 ##
 
 ### ▷ Preparar os arquivos para iniciar o projeto:
