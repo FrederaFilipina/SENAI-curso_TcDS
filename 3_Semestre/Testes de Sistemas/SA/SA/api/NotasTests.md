@@ -4,14 +4,26 @@
 
 ##
 
+### Listando os Requisitos Funcionais da API
+| #Nº | RF - Req. Func. | - | Descrição |
+|:---:|:---------------:|:-:|:----------|
+| #01 | RF - Req. Func. | - | Descrição | 
+| #02 | RF - Req. Func. | - | Descrição | 
+| #03 | RF - Req. Func. | - | Descrição | 
+| #04 | RF - Req. Func. | - | Descrição | 
+---
+
+<br>
+<br>
 
 ### Explicando a tabela:
-| # | Req. Func. | Objetivo | Nº Teste | Pre-condições | Ações | Resultados | Status | Anotações |
-|---|------------|----------|----------|---------------|-------|------------|--------|-----------|
-|ID geral da tabela de teste|Nome do Requisito Funcional a ser testado|Descrição do resultado esperado|Número indicativo do teste a ser realizado|O que precisa estar pronto para a realização do teste|Descrição de como o teste foi realizado|Descrição do o que aconteceu no teste|Informativo se o o teste foi aprovado ou reprovado|Campo reservado para relatos
+| # | RF - Req. Func. | Objetivo | Tipo do Teste | Teste Nº | Pre-condições | Ações | Resultados | Status | Anotações |
+|:--|:----------------|:---------|:--------------|:--------|:--------------|:------|:-----------|:------|:----------|
+|<br>ID geral da tabela de teste|<br>Nome do Requisito Funcional|<br>Descrição do resultado esperado|<br> ↪Positovo: verifica se o sistema funciona corretamente quando tudo é usado da forma esperada <br><br>↪Negativo: verifica como o sistema se comporta quando algo está errado ou fora do esperado|<br>Número indicativo do teste realizado|<br>O que precisa estar pronto para a realização do teste|<br>Passo a passo de como o teste foi realizado|<br>Relato dos acontecimentos no teste|<br>Informativo se o teste foi aprovado ou reprovado|<br>Campo reservado para relatos|
 
 ##
 ## Testes: 
 
-| # | Req. Func. | Objetivo | Nº Teste | Pre-condições | Ações | Resultados | Status | Anotações |
-|---|------------|----------|----------|---------------|-------|------------|--------|-----------|
+| # | RF - Req. Func. | Objetivo | Tipo do Teste | Teste Nº | Pre-condições | Ações | Resultados | Status | Anotações |
+|:--|:----------------|:---------|:--------------|:--------:|:--------------|:------|:-----------|:------:|:----------|
+|# 01| RF - Req. Func.|:---------|:--------------|:--------:|:--------------|:------|:-----------|:------:|:----------|
